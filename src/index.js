@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
   document.getElementById("submit").addEventListener("click", function(event){
     event.preventDefault();
     let ul = document.getElementById("tasks");
